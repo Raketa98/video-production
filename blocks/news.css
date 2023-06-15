@@ -1,0 +1,79 @@
+.news {
+  margin: 175px auto 0;
+  max-width: 1139px;
+}
+
+.news__title {
+  margin: 0;
+  padding: 0;
+  max-width: 376px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.news__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.news__camera {
+  background-image: url('../img/camera.png');
+  width: 557px;
+  height: 394px;
+}
+
+.news__wedding {
+  background-image: url('../img/wedding.png');
+  width: 557px;
+  height: 394px;
+}
+
+.news__date {
+  margin: 0;
+  padding: 0;
+  max-width: 94px;
+  padding-top: 252px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.news__subtitle {
+  margin: 0;
+  padding: 0;
+  max-width: 443px;
+  margin-top: 13px;
+  padding-left: 31px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.news__subtitle_wedding {
+  padding-left: 28px;
+}
+
+.news__description {
+  margin: 0;
+  padding: 0;
+  max-width: 442px;
+  margin-top: 4px;
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.31;
+}
+
+.news__description_wedding {
+  margin-top: 9px;
+  padding-left: 30px;
+  line-height: 1.5;
+}

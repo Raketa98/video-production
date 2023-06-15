@@ -1,0 +1,8 @@
+.wrapper_main {
+  background: url('../img/top-pic.png') center top no-repeat,
+              url('../img/bottom-pic.png') left bottom 306px no-repeat;
+}
+
+.wrapper_services {
+  background: url('../img/services-header.png') top right 50% no-repeat;
+}

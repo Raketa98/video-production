@@ -1,0 +1,57 @@
+.paginator {
+  margin: 51px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator_offers {
+  margin-top: 65px;
+  padding-bottom: 34px;
+}
+
+.paginator__display {
+  margin: 0;
+  padding: 0;
+  max-width: 125px;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.paginator__display_theme-dark {
+  color:#000;
+}
+
+.paginator__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paginator__link_theme-dark {
+  color:#000;
+}
+
+.paginator__link:hover {
+  background-color: #FF5500;
+  border-radius: 50%;
+}
+
+.paginator__link_theme-dark:hover {
+  color: #fff;
+}

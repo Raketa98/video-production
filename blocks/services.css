@@ -1,0 +1,117 @@
+.servisec {
+  margin: 233px auto 0;
+  max-width: 1140px;
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 23px;
+  list-style-type: none;
+}
+
+.services__item {
+  max-width: 362px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.services__logo {
+  width: 76px;
+  height: 76px;
+  margin-top: 40px;
+  margin-left: 29px;
+}
+
+.services__logo_tv {
+  width: 84px;
+  height: 80px;
+  margin-top: 36px;
+}
+
+.services__item_active {
+  border: 4px solid #ccc;
+}
+
+.services__title {
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
+  margin-top: 27px;
+  margin-left: 22px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.services__conditions {
+  max-width: 306px;
+  margin-top: 17px;
+  margin-left: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 81px;
+}
+
+.services__people {
+  margin: 0;
+  padding: 0;
+  max-width: 102px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #666;
+}
+
+.services__days {
+  margin: 0;
+  padding: 0;
+  max-width: 123px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #666;
+}
+
+.services__bold-accent {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+}
+
+.services__description {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  margin-left: 22px;
+  max-width: 306px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.57;
+  color: #666;
+}
+
+.services__button {
+  max-width: 198px;
+  margin: 29px 140px 53px 24px;
+  padding: 18px 54px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  border: 2px solid;
+  background-color: #fff;
+  color: #FF5500;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.36;
+  cursor: pointer;
+}
+
+.services__button_active {
+  background-color: #FF5500;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,8 @@
+.root {
+  box-sizing: border-box;
+  background: #17191C;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

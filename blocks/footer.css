@@ -1,0 +1,127 @@
+.footer {
+  margin: 90px auto 57px;
+  max-width: 1142px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer_services {
+  margin: 0 auto;
+  padding-top: 5px;
+  border-top: none;
+}
+
+.footer__logo {
+  width: 198px;
+  height: 46px;
+  margin-right: 130px;
+  margin-bottom: 9px;
+  padding-top: 40px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  max-width: 264px;
+  margin-bottom: 16px;
+  margin-right: 111px;
+  display: flex;
+  list-style-type: none;
+  gap: 54px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.36;
+}
+
+.footer__link:hover {
+  color: #FF3D00;
+}
+
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  margin-right: 74px;
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.footer__social-tg {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/t.svg');
+}
+
+.footer__social-tg:hover {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/t-light.svg');
+}
+
+.footer__social-vk {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/vk.svg');
+}
+
+.footer__social-vk:hover {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/vk-light.svg');
+}
+
+.footer__social-fb {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/f.svg');
+}
+
+.footer__social-fb:hover {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/f-light.svg');
+}
+
+.footer__social-in {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/in.svg');
+}
+
+.footer__social-in:hover {
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/in-light.svg');
+}
+
+.footer__free-call {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.81;
+  color: #9A9A9A;
+  text-align: end;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer__phone {
+  max-width: 191px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+}
