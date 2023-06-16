@@ -6,13 +6,14 @@
 }
 
 .header_services {
+  margin: 0 auto;
   flex-direction: column;
   padding-top: 23px;
 }
 
 .header__container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .header__logo {
@@ -78,7 +79,7 @@
   margin: 0;
   padding: 0;
   margin-top: 114px;
-  margin-left: 350px;
+  /* margin-left: 350px; */
   max-width: 303px;
   font-size: 72px;
   font-weight: 800;
@@ -87,8 +88,8 @@
 }
 
 .header__breadcrumbs {
-  margin-top: 84px;
-  margin-left: 350px;
+  margin-top: 80px;
+  /* margin-left: 350px; */
   margin-bottom: 28px;
 }
 
