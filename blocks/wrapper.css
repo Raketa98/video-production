@@ -6,3 +6,12 @@
 .wrapper_services {
   background: url('../img/services-header.png') top right 50% no-repeat;
 }
+
+.wrapper_hello {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../img/bg.png') top center no-repeat;
+}
