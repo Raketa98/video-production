@@ -1,0 +1,23 @@
+.discount {
+  background: url('../img/party.png') top right 17% no-repeat;
+}
+
+.discount__container {
+  margin: 0 auto;
+  max-width: 1142px; 
+}
+
+.discount__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 117px;
+  padding-bottom: 116px;
+  max-width: 553px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.discount__percents {
+  color: rgba(255, 84, 0, 1);
+}

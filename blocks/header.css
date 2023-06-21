@@ -1,12 +1,20 @@
 .header {
   margin: 26px auto 0;
+  padding-bottom: 76px;
   max-width: 1142px;
-  min-height: 129px;
   display: flex;
 }
 
 .header_services {
   margin: 0 auto;
+  padding-bottom: 0;
+  flex-direction: column;
+  padding-top: 23px;
+}
+
+.header_reviews {
+  margin: 0 auto;
+  padding-bottom: 0;
   flex-direction: column;
   padding-top: 23px;
 }
@@ -45,6 +53,7 @@
 
 .header__link:hover {
   color: #FF3D00;
+  transition: 1s linear .3s;
 }
 
 .header__contacts {
@@ -85,9 +94,18 @@
   text-transform: uppercase;
 }
 
+.header__title_reviews {
+  max-width: 330px;
+  padding-left: 4px;
+}
+
 .header__breadcrumbs {
   margin-top: 80px;
   margin-bottom: 28px;
+}
+
+.header__breadcrumbs_reviews {
+  margin-top: 84px;
 }
 
 .header__breadcrumbs-list {

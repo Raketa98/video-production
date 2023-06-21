@@ -30,18 +30,16 @@
   text-decoration: none;
 }
 
+.hello__button:hover {
+  background-color: #FF3D00;
+}
+
 @keyframes animation {
   0% {
     transform: scale(.1) rotate(5deg);
   }
   25% {
     transform: rotate(-15deg);
-  }
-  50% {
-    transform: rotate(-5deg);
-  }
-  75% {
-    transform: rotate(5deg);
   }
   100% {
     opacity: 1;

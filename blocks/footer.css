@@ -13,6 +13,12 @@
   border-top: none;
 }
 
+.footer_reviews {
+  margin: 0 auto;
+  padding-top: 5px;
+  border-top: none;
+}
+
 .footer__logo {
   width: 198px;
   height: 46px;
@@ -42,6 +48,7 @@
 
 .footer__link:hover {
   color: #FF3D00;
+  transition: 1s linear .3s;
 }
 
 .footer__social-list {
@@ -66,6 +73,7 @@
   width: 36px;
   height: 36px;
   background-image: url('../img/t-light.svg');
+  transition: 1s linear .3s;
 }
 
 .footer__social-vk {
@@ -78,6 +86,7 @@
   width: 36px;
   height: 36px;
   background-image: url('../img/vk-light.svg');
+  transition: 1s linear .3s;
 }
 
 .footer__social-fb {
@@ -90,6 +99,7 @@
   width: 36px;
   height: 36px;
   background-image: url('../img/f-light.svg');
+  transition: 1s linear .3s;
 }
 
 .footer__social-in {
@@ -102,6 +112,7 @@
   width: 36px;
   height: 36px;
   background-image: url('../img/in-light.svg');
+  transition: 1s linear .3s;
 }
 
 .footer__free-call {

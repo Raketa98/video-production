@@ -39,4 +39,5 @@
 
 .partners__item:hover {
   filter: grayscale(0);
+  transition: 1s linear .3s;
 }

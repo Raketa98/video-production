@@ -1,0 +1,108 @@
+.reviews {
+  background: #fff;
+}
+
+.reviews__block {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 65px;
+  max-width: 1141px;
+}
+
+.reviews__list {
+  margin: 0;
+  padding: 0;
+  column-count: 2;
+  column-gap: 27px;
+}
+
+.reviews__item {
+  max-width: 557px;
+  background-color: #F4F5F5;
+  margin-bottom: 17px;
+  padding-bottom: 32px;
+  border-radius: 5px;
+}
+
+.reviews__user {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__avatar {
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  margin: 50px 20px 0 28px;
+}
+
+.reviews__userdata {
+  margin-top: 52px;
+}
+
+.reviews__name {
+  color: #1A1B1E;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.75;
+  text-decoration: none;
+}
+
+.reviews__name:after {
+  content: url('../img/vk-rev.svg');
+  width: 30px;
+  height: 30px;
+  margin-left: 9px;
+}
+
+.reviews__name:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+  transition: .3s linear;
+}
+
+.reviews__tag {
+  padding: 10px 24px;
+  color: #303030;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.38;
+  background-color: #F2D4C9;
+  border-radius: 35px;
+}
+
+.reviews__title {
+  margin: 0;
+  padding: 0;
+  max-width: 470px;
+  margin-top: 27px;
+  margin-left: 34px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #202020;
+}
+
+.reviews__text {
+  margin: 0;
+  padding: 0;
+  max-width: 495px;
+  margin-top: 13px;
+  margin-left: 31px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.69;
+  color: #818181;
+}
+
+.reviews__date {
+  margin: 0;
+  padding: 0;
+  max-width: 118px;
+  margin-top: 46px;
+  margin-left: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.93;
+  color: #1A1B1E;
+}

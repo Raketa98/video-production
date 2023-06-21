@@ -50,6 +50,7 @@
 .paginator__link:hover {
   background-color: #FF5500;
   border-radius: 50%;
+  transition: .2s linear;
 }
 
 .paginator__link_theme-dark:hover {
