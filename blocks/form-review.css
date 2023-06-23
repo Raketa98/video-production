@@ -1,0 +1,20 @@
+.form-review {
+  background: #F4F5F5;
+  padding-top: 79px;
+  padding-bottom: 96px;
+}
+
+.form-review__block {
+  margin: 0 auto;
+  max-width: 1141px;
+}
+
+.form-review__title {
+  margin: 0;
+  padding: 0;
+  color: #202020;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.36;
+  text-transform: uppercase;
+}

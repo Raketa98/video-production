@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Production</title>
+  <title>Video Production Отзывы</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
@@ -41,7 +41,9 @@
                 <img src="./img/ivan.png" alt="аватар" class="reviews__avatar">
                 <div class="reviews__userdata">
                   <a href="#" class="reviews__name">Иван Петрович</a>
-                  <div class="reviews__tag">Съемки клипа</div>
+                  <ul class="reviews__tag-list">
+                    <li class="reviews__tag-item tag tag_bg_orange">Съемки клипа</li>
+                  </ul>
                 </div>
               </div>
               <div class="reviews__description">
@@ -57,7 +59,9 @@
                 <img src="./img/liza.png" alt="аватар" class="reviews__avatar">
                 <div class="reviews__userdata">
                   <a href="#" class="reviews__name">Лиза Сидорова</a>
-                  <div class="reviews__tag">Съемка свадьбы</div>
+                  <ul class="reviews__tag-list">
+                    <li class="reviews__tag-item tag tag_bg_orange">Съемка свадьбы</li>
+                  </ul>
                 </div>
               </div>
               <div class="reviews__description">
@@ -73,7 +77,9 @@
                 <img src="./img/kate.png" alt="аватар" class="reviews__avatar">
                 <div class="reviews__userdata">
                   <a href="#" class="reviews__name">Екатерина Жмых</a>
-                  <div class="reviews__tag">Студийная сьемка</div>
+                  <ul class="reviews__tag-list">
+                    <li class="reviews__tag-item tag tag_bg_orange">Студийная съемка</li>
+                  </ul>
                 </div>
               </div>
               <div class="reviews__description">
@@ -90,7 +96,9 @@
                 <img src="./img/anton.png" alt="аватар" class="reviews__avatar">
                 <div class="reviews__userdata">
                   <a href="#" class="reviews__name">Антон Игоревич</a>
-                  <div class="reviews__tag">Реклама</div>
+                  <ul class="reviews__tag-list">
+                    <li class="reviews__tag-item tag tag_bg_orange">Реклама</li>
+                  </ul>
                 </div>
               </div>
               <div class="reviews__description reviews__description_anton">
@@ -120,6 +128,71 @@
       <section class="discount">
         <div class="discount__container">
           <h2 class="discount__title">Скидка <span class="discount__percents">20%</span> на съемку мероприятий</h2>
+        </div>
+      </section>
+      <section class="form-review">
+        <div class="form-review__block">
+          <h2 class="form-review__title">Оставьте отзыв</h2>
+          <form class="form">
+            <div class="form__row">
+              <input type="text" placeholder="ФИО" class="form__input">
+              <input type="text" placeholder="Ссылка на профиль" class="form__input">
+            </div>
+            <div class="form__row">
+              <textarea class="form__input form__input_textarea" placeholder="Напишите свой честный отзыв ;)"></textarea>
+            </div>
+            <div class="form__controls">
+              <h3 class="form__controls-title">Какими услугами компании пользуетесь?</h3>
+              <ul class="form__list">
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Съемка клипа</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Съемки рекламы</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Съемка свадьбы</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Студийная съемка</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Никакими</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Видно клип</div>
+                  </label>
+                </li>
+                <li class="form__item">
+                  <label class="form__label">
+                    <input type="checkbox" class="form__checkbox">
+                    <div class="form__tag tag">Другое</div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form__btns">
+              <button type="reset" class="form__button form__button_grey">Очистить</button>
+              <button type="submit" class="form__button">Отправить</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>

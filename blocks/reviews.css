@@ -33,7 +33,6 @@
 .reviews__avatar {
   width: 142px;
   height: 142px;
-  border-radius: 50%;
   margin: 0 20px 0 28px;
   padding-top: 50px;
 }
@@ -52,7 +51,6 @@
 
 .reviews__name:after {
   content: url('../img/vk-rev.svg');
-  width: 30px;
   height: 30px;
   margin-left: 9px;
 }
@@ -63,14 +61,12 @@
   transition: .3s linear;
 }
 
-.reviews__tag {
-  padding: 10px 24px;
-  color: #303030;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.38;
-  background-color: #F2D4C9;
-  border-radius: 35px;
+.reviews__tag-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
 }
 
 .reviews__description_anton {
