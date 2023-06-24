@@ -9,13 +9,15 @@
 
 .footer_services {
   margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 6px;
+  padding-bottom: 39px;
   border-top: none;
 }
 
 .footer_reviews {
   margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 6px;
+  padding-bottom: 39px;
   border-top: none;
 }
 
